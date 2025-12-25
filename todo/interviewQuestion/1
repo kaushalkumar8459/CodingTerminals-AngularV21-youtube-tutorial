@@ -1,0 +1,13 @@
+install node 
+install angular/cli ---->> npm install -g @angular/cli
+vs code
+
+project setup ----- ng new projectname
+
+project start:-   npm start
+
+
+1. command to install angular cli
+2. what is npm 
+3. how to create project in angular ? --- ng new projectName
+4. on which port angular will execute/run ? 4200
