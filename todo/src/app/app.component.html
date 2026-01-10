@@ -1,10 +1,6 @@
-<div class="app-container">
-    <h1>Coding terminals Welcome you all !!</h1>
-    <p>I am on app-component page</p>
-</div>
+<img [src]="avatarUrl()" height="100" width="100" [alt]="'Profile of ' + imageName()" />
 
-<div>
-    <app-home></app-home>
-    <app-gallery></app-gallery>
-    <app-about></app-about>
-</div>
+<p>Count: {{ count() }}</p>
+<p>Double Count: {{ doubleCount() }}</p>
+
+<button (click)="increase()">Increase</button>
