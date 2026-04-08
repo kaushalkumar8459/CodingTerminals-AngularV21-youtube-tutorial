@@ -6,7 +6,7 @@ import { NavMenu } from './nav-menu/nav-menu';
   selector: 'app-root',
   imports: [RouterOutlet,NavMenu],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
 export class App {
   protected readonly title = signal('schoolAdmin');

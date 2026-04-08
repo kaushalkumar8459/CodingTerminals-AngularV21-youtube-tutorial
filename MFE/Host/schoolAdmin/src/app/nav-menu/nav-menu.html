@@ -6,10 +6,10 @@
 
       <!-- Desktop Menu -->
       <div class="hidden md:flex space-x-6">
-        <a routerLink="/" class="text-gray-700 hover:text-indigo-600">Home</a>
-        <a routerLink="/about" class="text-gray-700 hover:text-indigo-600">About</a>
-        <a routerLink="/services" class="text-gray-700 hover:text-indigo-600">Services</a>
-        <a routerLink="/contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+        <a routerLink="/" class="text-gray-700 hover:text-indigo-600">School Admin</a>
+        <a routerLink="/teacher" class="text-gray-700 hover:text-indigo-600">Teacher</a>
+        <a routerLink="/student" class="text-gray-700 hover:text-indigo-600">Student</a>
+        <a routerLink="/library" class="text-gray-700 hover:text-indigo-600">Library</a>
       </div>
 
       <!-- Mobile Button -->
@@ -25,9 +25,9 @@
 
   @if(isOpen) {<div
     class="md:hidden bg-white px-4 pb-4 space-y-2 md:hidden bg-white px-4 pb-4 space-y-2 transition-all duration-300">
-    <a routerLink="/" routerLinkActive="text-indigo-600 font-semibold">Home </a>
-    <a routerLink="/about" class="block text-gray-700 hover:text-indigo-600">About</a>
-    <a routerLink="/services" class="block text-gray-700 hover:text-indigo-600">Services</a>
-    <a routerLink="/contact" class="block text-gray-700 hover:text-indigo-600">Contact</a>
+    <a routerLink="/" routerLinkActive="text-indigo-600 font-semibold">School Admin </a>
+    <a routerLink="/teacher" class="block text-gray-700 hover:text-indigo-600">Teacher</a>
+    <a routerLink="/student" class="block text-gray-700 hover:text-indigo-600">Student</a>
+    <a routerLink="/library" class="block text-gray-700 hover:text-indigo-600">Library</a>
   </div>}
 </nav>
